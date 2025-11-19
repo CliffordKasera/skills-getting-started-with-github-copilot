@@ -39,6 +39,13 @@
         </form>
         <div id="message" class="hidden"></div>
       </section>
+
+      <section class="participants-section">
+        <h3>Participants List</h3>
+        <div class="participants-list">
+          <!-- Participant emails will be displayed here -->
+        </div>
+      </section>
     </main>
 
     <footer>
@@ -48,3 +55,27 @@
     <script src="app.js"></script>
   </body>
 </html>
+
+/* Add to the end of styles.css */
+// filepath: /workspaces/skills-getting-started-with-github-copilot/src/static/styles.css
+
+.participants-section {
+  margin-top: 12px;
+  padding: 10px;
+  background: #f1f8e9;
+  border-radius: 4px;
+  border: 1px solid #c5e1a5;
+}
+
+.participants-list {
+  margin-top: 6px;
+  margin-left: 18px;
+  color: #33691e;
+}
+
+.participant-email {
+  font-size: 0.97em;
+  background: #e8f5e9;
+  padding: 2px 6px;
+  border-radius: 3px;
+}
